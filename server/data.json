@@ -5,84 +5,140 @@
       "money": -66,
       "date": "2024-7-24 7:36:42",
       "useFor": "drinks",
-      "id": 1
+      "id": "1"
     },
     {
       "type": "pay",
       "money": -88,
       "date": "2024-7-24 7:37:51",
       "useFor": "longdistance",
-      "id": 2
+      "id": "2"
     },
     {
       "type": "income",
       "money": 70,
       "date": "2024-7-22 00:00:00",
       "useFor": "bonus",
-      "id": 3
+      "id": "3"
     },
     {
       "type": "pay",
       "money": -33,
       "date": "2024-06-24 16:15:41",
       "useFor": "dessert",
-      "id": 4
+      "id": "4"
     },
     {
       "type": "pay",
       "money": -56,
       "date": "2024-07-22T05:37:06.000Z",
       "useFor": "drinks",
-      "id": 5
+      "id": "5"
     },
     {
       "type": "pay",
       "money": -888,
       "date": "2024-07-28T08:21:42.135Z",
       "useFor": "travel",
-      "id": 6
+      "id": "6"
     },
     {
       "type": "income",
       "money": 7000,
       "date": "2024-05-20T06:45:54.004Z",
       "useFor": "salary",
-      "id": 7
+      "id": "7"
     },
     {
       "type": "pay",
       "money": -7,
       "date": "2024-05-22T07:17:12.531Z",
       "useFor": "drinks",
-      "id": 8
+      "id": "8"
     },
     {
       "type": "pay",
       "money": -20,
       "date": "2024-05-22T07:51:20.421Z",
       "useFor": "dessert",
-      "id": 6
+      "id": "6"
     },
     {
       "type": "pay",
       "money": -70,
       "date": "2024-05-22T06:18:12.868Z",
       "useFor": "drinks",
-      "id": 17
+      "id": "17"
     },
     {
       "type": "pay",
       "money": -50,
       "date": "2024-05-23T06:11:23.312Z",
       "useFor": "food",
-      "id": 18
+      "id": "18"
     },
     {
       "type": "pay",
       "money": -7,
       "date": "2024-04-05T11:14:56.056Z",
       "useFor": "food",
-      "id": 16
+      "id": "16"
+    },
+    {
+      "id": "fdbe",
+      "type": "pay",
+      "money": -79,
+      "date": "2024-07-31",
+      "useFor": "drinks"
+    },
+    {
+      "id": "9d65",
+      "type": "income",
+      "money": 10000,
+      "date": "2024-07-31",
+      "useFor": "salary"
+    },
+    {
+      "id": "5647",
+      "type": "pay",
+      "money": -5767,
+      "date": "2024-07-31",
+      "useFor": "taxi"
+    },
+    {
+      "id": "af9d",
+      "type": "pay",
+      "money": -1,
+      "date": "2024-07-31",
+      "useFor": "dessert"
+    },
+    {
+      "id": "4fd0",
+      "type": "pay",
+      "money": -222,
+      "date": "2024-07-31",
+      "useFor": "longdistance"
+    },
+    {
+      "id": "6433",
+      "type": "pay",
+      "money": -9,
+      "date": "2024-08-01",
+      "useFor": "food"
+    },
+    {
+      "id": "4488",
+      "type": "income",
+      "money": 2222,
+      "date": "2024-07-31",
+      "useFor": "overtimepay"
+    },
+    {
+      "id": "8c73",
+      "type": "pay",
+      "money": -111,
+      "date": "2024-08-01",
+      "useFor": "bodybuilding"
     }
   ]
 }

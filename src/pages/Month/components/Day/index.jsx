@@ -6,6 +6,11 @@ import { useMemo, useState } from 'react'
 import BillIcon from '@/components/BillIcon'
 
 const DailyBill = ({ date, billList }) => {
+  // 对传来的单日账单进行日期排序
+  // const newDate = date.sort((a, b) => {
+  //   return Date.parse(a) - Date.parse(b)
+  // })
+  // console.log(newDate)
   const [billListFlag, setbillListFlag] = useState(false)
   // 计算每日结果
   const dayResult = useMemo(() => {
