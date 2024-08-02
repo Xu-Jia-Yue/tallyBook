@@ -6,12 +6,10 @@
   background-repeat: no-repeat;
   background-color: rgba(245, 245, 245, 0.9);
   color: var(--ka-text-color);
-
   .nav {
     --adm-font-size-10: 16px;
     color: #121826;
     background-color: transparent;
-
     .adm-nav-bar-back-arrow {
       font-size: 20px;
     }
@@ -34,7 +32,6 @@
       height: 135px;
       padding: 20px 20px 0px 18.5px;
       margin-bottom: 10px;
-      // background-image: url(https://zqran.gitee.io/images/ka/month-bg.png);
       background-color: rgb(251, 213, 114);
       background-size: 100% 100%;
       border-radius: 20px;
@@ -60,30 +57,6 @@
         .arrow.expand {
           transform: translate(0, 2px) rotate(45deg);
         }
-      }
-    }
-  }
-
-  .twoLineOverview {
-    display: flex;
-    justify-content: space-between;
-    width: 250px;
-
-    .item {
-      display: flex;
-      flex-direction: column;
-
-      .money {
-        height: 24px;
-        line-height: 24px;
-        margin-bottom: 5px;
-        font-size: 18px;
-      }
-
-      .type {
-        height: 14px;
-        line-height: 14px;
-        font-size: 12px;
       }
     }
   }

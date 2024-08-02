@@ -3,6 +3,9 @@ import axios from 'axios'
 const billStore = createSlice({
   name: 'bill',
   initialState: {
+    // 2021: [{ type, date, money, useFor }]
+    //  type: 'pay' | 'income'
+    // 2022: [{ type, date, money, useFor }]
     billList: [],
   },
   reducers: {

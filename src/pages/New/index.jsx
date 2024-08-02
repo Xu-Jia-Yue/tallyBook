@@ -1,4 +1,4 @@
-import { Button, DatePicker, Input, NavBar ,Modal} from 'antd-mobile'
+import { Button, DatePicker, Input, NavBar, Modal, Toast } from 'antd-mobile'
 import Icon from '@/components/BillIcon'
 import './index.scss'
 import dayjs from 'dayjs'
@@ -19,7 +19,8 @@ const New = () => {
   const confirmDate = (v) => {
     setBillDate(dayjs(v).format('YYYY-MM-DD'))
   }
-  const saveBill = () => {
+  // 对数据进行添加
+  const saveBill = async () => {
     const data = {
       type: billType,
       money: billType === 'pay' ? -money : +money,
@@ -28,9 +29,10 @@ const New = () => {
     }
     if (money && iconSelected) {
       dispatch(addBillAsync(data))
+      Toast.show({ content: '记账成功', position: 'center' })
     } else {
       Modal.alert({
-        content: '请输入完整数据'
+        content: '请输入完整数据',
       })
     }
     setIncoSelected('')
@@ -65,9 +67,7 @@ const New = () => {
             <div className='date'>
               <Icon type='calendar' className='icon' />
               <span className='text' onClick={() => setVisible(true)}>
-                {billDate === dayjs().format('YYYY-MM-DD')
-                  ? '今天'
-                  : dayjs().format('YYYY-MM-DD')}
+                {billDate === dayjs().format('YYYY-MM-DD') ? '今天' : billDate}
               </span>
               <DatePicker
                 className='kaDate'
